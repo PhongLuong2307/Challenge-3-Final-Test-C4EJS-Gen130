@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.Merriweather {
+    font-family: 'Merriweather';
+}
+
+.header__title {
+    margin-bottom: 20px;
+}
+
+.header__navBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navBar--menu {
+    display: flex;
+    list-style: none;
+}
+
+.seachBar {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.seachBar__input {
+    padding: 15px 0px 15px 40px;
+    width: 350px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.header__navBar--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.newUser {
+    background-color: #849FFF;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.users-container {
+    margin-top: 80px;
+    padding: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 70% 70%;
+}
+
+.user-item {
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    padding: 25px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.user-item:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+.user-item-content {
+    display: flex;
+}
+
+.user-info {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.favourite {
+    display: flex;
+    margin-top: 20px;
+}
+
+.favourite-item {
+    color: #516FD4;
+    font-size: 13px;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    line-height: 0.8;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.favourite-item + .favourite-item {
+    margin-left: 10px;
+}
